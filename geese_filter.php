@@ -5,6 +5,12 @@
 
 	</head>
     <body>
+/* write a function that takes an array of strings as an argument and returns a filtered array containing the same elements but
+ with the "geese" removed .The geese are any string in the following array, which is pre-populated in your solution
+geese = ['African','Roman Tufted','Toulouse','Pilgrim','Steinbacher'];
+The Elements in the returned array should be in the same order as in the initial array passed to your function , albeit with the geese removed.
+ Note that all of the strings will be in the same case as those provided and some elements may be repeated.
+ */
         <?php
         //SOLUTION IN PHP
             function gooseFilter($array){
